@@ -5,8 +5,8 @@ from flask_apscheduler import APScheduler
 from random import uniform
 
 config = {
-    'FLASK_HOST': '0.0.0.0',
-    'FLASK_PORT': '5050',
+    'FLASK_HOST': '127.0.0.1',
+    'FLASK_PORT': '5000',
     'FLASK_DEBUG': True,
     'FLASK_SECRET': 's3cr3t!'
 }
